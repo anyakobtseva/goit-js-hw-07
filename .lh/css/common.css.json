@@ -1,0 +1,130 @@
+{
+    "sourceFile": "css/common.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 28,
+            "patches": [
+                {
+                    "date": 1701627500263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1701627509428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,7 @@\n   color: #212121;\n   line-height: 1.5;\n }\n \n-ga\n\\ No newline at end of file\n+.gallery {\n+  mac\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627515818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,6 @@\n   line-height: 1.5;\n }\n \n .gallery {\n-  mac\n+  max-height: 50px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627609357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,7 +12,7 @@\n   color: #212121;\n   line-height: 1.5;\n }\n \n-.gallery {\n+.blabla {\n   max-height: 50px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627615446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,6 @@\n   line-height: 1.5;\n }\n \n .blabla {\n-  max-height: 50px;\n+  max-height: 1000px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627628666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,7 @@\n   line-height: 1.5;\n }\n \n .blabla {\n-  max-height: 1000px;\n+  max-height: 100px;\n+  mac\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627634898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,6 @@\n }\n \n .blabla {\n   max-height: 100px;\n-  mac\n+  max-width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627662052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,8 @@\n   line-height: 1.5;\n }\n \n .blabla {\n+  fle\n   max-height: 100px;\n   max-width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627674085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n   line-height: 1.5;\n }\n \n .blabla {\n-  fle\n-  max-height: 100px;\n-  max-width: 100px;\n+  flex: auto;\n+  /* max-height: 100px;\n+  max-width: 100px; */\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627878346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n   line-height: 1.5;\n }\n \n .blabla {\n-  flex: auto;\n-  /* max-height: 100px;\n-  max-width: 100px; */\n+  a\n+  max-height: 100px;\n+  max-width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627901155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n   line-height: 1.5;\n }\n \n .blabla {\n-  a\n+  align-items: ;\n   max-height: 100px;\n   max-width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627909132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n   line-height: 1.5;\n }\n \n .blabla {\n-  align-items: ;\n+  align-items: center;\n   max-height: 100px;\n   max-width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627936077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n   line-height: 1.5;\n }\n \n .blabla {\n+  \n   align-items: center;\n   max-height: 100px;\n   max-width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627971915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,7 @@\n   line-height: 1.5;\n }\n \n .blabla {\n-  \n-  align-items: center;\n   max-height: 100px;\n   max-width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627977010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   background-color: #fafafa;\n   color: #212121;\n   line-height: 1.5;\n }\n-\n+.\n .blabla {\n   max-height: 100px;\n   max-width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627982914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   background-color: #fafafa;\n   color: #212121;\n   line-height: 1.5;\n }\n-.\n+.gal\n .blabla {\n   max-height: 100px;\n   max-width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627988270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   background-color: #fafafa;\n   color: #212121;\n   line-height: 1.5;\n }\n-.gal\n+.gale\n .blabla {\n   max-height: 100px;\n   max-width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628022222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   background-color: #fafafa;\n   color: #212121;\n   line-height: 1.5;\n }\n-.gale\n+.gallery\n .blabla {\n   max-height: 100px;\n   max-width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628027767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,11 @@\n   background-color: #fafafa;\n   color: #212121;\n   line-height: 1.5;\n }\n-.gallery\n+.gallery {\n+  align-items: center;\n+}\n .blabla {\n   max-height: 100px;\n   max-width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628058011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n   color: #212121;\n   line-height: 1.5;\n }\n .gallery {\n+  d\n   align-items: center;\n }\n .blabla {\n   max-height: 100px;\n"
+                },
+                {
+                    "date": 1701628068821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   color: #212121;\n   line-height: 1.5;\n }\n .gallery {\n-  d\n+  display: ;\n   align-items: center;\n }\n .blabla {\n   max-height: 100px;\n"
+                },
+                {
+                    "date": 1701628096130,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,11 +12,11 @@\n   color: #212121;\n   line-height: 1.5;\n }\n .gallery {\n-  display: ;\n+  display: flex;\n   align-items: center;\n }\n-.blabla {\n+.babla {\n   max-height: 100px;\n   max-width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628102923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,8 @@\n .gallery {\n   display: flex;\n   align-items: center;\n }\n-.babla {\n+.blabla {\n   max-height: 100px;\n   max-width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628113490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,5 +18,6 @@\n }\n .blabla {\n   max-height: 100px;\n   max-width: 100px;\n+  padding: auto;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628123663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,6 +18,6 @@\n }\n .blabla {\n   max-height: 100px;\n   max-width: 100px;\n-  padding: auto;\n+  padding: 10px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628142660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   color: #212121;\n   line-height: 1.5;\n }\n .gallery {\n-  display: flex;\n+  display: co;\n   align-items: center;\n }\n .blabla {\n   max-height: 100px;\n"
+                },
+                {
+                    "date": 1701628186101,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,12 +12,13 @@\n   color: #212121;\n   line-height: 1.5;\n }\n .gallery {\n-  display: co;\n+  display: block;\n   align-items: center;\n }\n .blabla {\n+  li\n   max-height: 100px;\n   max-width: 100px;\n   padding: 10px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628221650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,8 @@\n   display: block;\n   align-items: center;\n }\n .blabla {\n-  li\n   max-height: 100px;\n   max-width: 100px;\n   padding: 10px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701721284745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n .gallery {\n   display: block;\n   align-items: center;\n }\n-.blabla {\n+.image {\n   max-height: 100px;\n   max-width: 100px;\n   padding: 10px;\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1701627500263,
+            "name": "Commit-0",
+            "content": "* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 16px;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,\n    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  background-color: #fafafa;\n  color: #212121;\n  line-height: 1.5;\n}\n\nga"
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+{
+    "sourceFile": "js/task-02.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 46,
+            "patches": [
+                {
+                    "date": 1701626911441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1701626959313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,4 +27,5 @@\n     alt: 'Zebras on Zebra',\n   },\n ];\n \n+const gallery = \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701626964544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,5 +27,5 @@\n     alt: 'Zebras on Zebra',\n   },\n ];\n \n-const gallery = \n\\ No newline at end of file\n+const gallery = document.querySelector\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701626970757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,5 +27,5 @@\n     alt: 'Zebras on Zebra',\n   },\n ];\n \n-const gallery = document.querySelector\n\\ No newline at end of file\n+const gallery = document.querySelector(\"\".gallery)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701626977375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,5 +27,5 @@\n     alt: 'Zebras on Zebra',\n   },\n ];\n \n-const gallery = document.querySelector(\"\".gallery)\n\\ No newline at end of file\n+const gallery = document.querySelector(\".gallery\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701626988369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,5 +27,5 @@\n     alt: 'Zebras on Zebra',\n   },\n ];\n \n-const gallery = document.querySelector(\".gallery\")\n\\ No newline at end of file\n+const gallery = document.querySelector(\".gallery\");\n"
+                },
+                {
+                    "date": 1701627090555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,4 +28,6 @@\n   },\n ];\n \n const gallery = document.querySelector(\".gallery\");\n+\n+f\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627095806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,5 +29,5 @@\n ];\n \n const gallery = document.querySelector(\".gallery\");\n \n-f\n\\ No newline at end of file\n+for (const )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627109681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,5 +29,5 @@\n ];\n \n const gallery = document.querySelector(\".gallery\");\n \n-for (const )\n\\ No newline at end of file\n+for (const image in image) \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627120895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,5 +29,7 @@\n ];\n \n const gallery = document.querySelector(\".gallery\");\n \n-for (const image in image) \n\\ No newline at end of file\n+for (const image in images) {\n+  const l\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627126898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,6 +30,6 @@\n \n const gallery = document.querySelector(\".gallery\");\n \n for (const image in images) {\n-  const l\n+  const liEl = document.c\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627134915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,6 +30,6 @@\n \n const gallery = document.querySelector(\".gallery\");\n \n for (const image in images) {\n-  const liEl = document.c\n+  const liEl = document.createElement('li')\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627144658,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,7 +29,9 @@\n ];\n \n const gallery = document.querySelector(\".gallery\");\n \n+const all\n for (const image in images) {\n-  const liEl = document.createElement('li')\n+  const liEl = document.createElement('li');\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627150212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n ];\n \n const gallery = document.querySelector(\".gallery\");\n \n-const all\n+const allImagesEl = []\n for (const image in images) {\n   const liEl = document.createElement('li');\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627155795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n ];\n \n const gallery = document.querySelector(\".gallery\");\n \n-const allImagesEl = []\n+const allImagesEl = [];\n for (const image in images) {\n   const liEl = document.createElement('li');\n-\n+  \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627161739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,6 +32,7 @@\n \n const allImagesEl = [];\n for (const image in images) {\n   const liEl = document.createElement('li');\n-  \n+\n+  allImagesEl.push()\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627176186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,7 +32,7 @@\n \n const allImagesEl = [];\n for (const image in images) {\n   const liEl = document.createElement('li');\n-\n-  allImagesEl.push()\n+  liEl.\n+  allImagesEl.push(liEl)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627193628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,7 +32,7 @@\n \n const allImagesEl = [];\n for (const image in images) {\n   const liEl = document.createElement('li');\n-  liEl.\n+  liEl.createElement\n   allImagesEl.push(liEl)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627199560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,7 +32,7 @@\n \n const allImagesEl = [];\n for (const image in images) {\n   const liEl = document.createElement('li');\n-  liEl.createElement\n+  liEl.createChile\n   allImagesEl.push(liEl)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627204904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,7 +32,7 @@\n \n const allImagesEl = [];\n for (const image in images) {\n   const liEl = document.createElement('li');\n-  liEl.createChile\n+  liEl.createChild\n   allImagesEl.push(liEl)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627257892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,7 +32,7 @@\n \n const allImagesEl = [];\n for (const image in images) {\n   const liEl = document.createElement('li');\n-  liEl.createChild\n+  liEl.createC\n   allImagesEl.push(liEl)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627304444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,7 +32,8 @@\n \n const allImagesEl = [];\n for (const image in images) {\n   const liEl = document.createElement('li');\n+  const \n   liEl.createC\n   allImagesEl.push(liEl)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627309716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,8 @@\n \n const allImagesEl = [];\n for (const image in images) {\n   const liEl = document.createElement('li');\n-  const \n+  const imEl = d\n   liEl.createC\n   allImagesEl.push(liEl)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627314780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,8 @@\n \n const allImagesEl = [];\n for (const image in images) {\n   const liEl = document.createElement('li');\n-  const imEl = d\n+  const imEl = document.createElement\n   liEl.createC\n   allImagesEl.push(liEl)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627325729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,8 @@\n \n const allImagesEl = [];\n for (const image in images) {\n   const liEl = document.createElement('li');\n-  const imEl = document.createElement\n-  liEl.createC\n+  const imEl = document.createElement('img')\n+  liEl.ap\n   allImagesEl.push(liEl)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627333763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,7 +33,7 @@\n const allImagesEl = [];\n for (const image in images) {\n   const liEl = document.createElement('li');\n   const imEl = document.createElement('img')\n-  liEl.ap\n+  liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627341585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,7 +33,8 @@\n const allImagesEl = [];\n for (const image in images) {\n   const liEl = document.createElement('li');\n   const imEl = document.createElement('img')\n+  i\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627348492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,8 +33,8 @@\n const allImagesEl = [];\n for (const image in images) {\n   const liEl = document.createElement('li');\n   const imEl = document.createElement('img')\n-  i\n+  imEl.src = image.s\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627359261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,8 +33,8 @@\n const allImagesEl = [];\n for (const image in images) {\n   const liEl = document.createElement('li');\n   const imEl = document.createElement('img')\n-  imEl.src = image.s\n+  imEl.src = image.url;\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627369393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,7 +34,8 @@\n for (const image in images) {\n   const liEl = document.createElement('li');\n   const imEl = document.createElement('img')\n   imEl.src = image.url;\n+  imEl.alt = ima\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627380699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,8 +34,9 @@\n for (const image in images) {\n   const liEl = document.createElement('li');\n   const imEl = document.createElement('img')\n   imEl.src = image.url;\n-  imEl.alt = ima\n+  imEl.alt = image.alt;\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n\\ No newline at end of file\n-}\n+}\n+\n"
+                },
+                {
+                    "date": 1701627388414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,4 +38,6 @@\n   imEl.alt = image.alt;\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n }\n+\n+gallery.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627395298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,5 +39,5 @@\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n }\n \n-gallery.\n\\ No newline at end of file\n+gallery.append(...allImagesEl)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627479092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,14 +30,14 @@\n \n const gallery = document.querySelector(\".gallery\");\n \n const allImagesEl = [];\n-for (const image in images) {\n+for (const image of images) {\n   const liEl = document.createElement('li');\n   const imEl = document.createElement('img')\n   imEl.src = image.url;\n   imEl.alt = image.alt;\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n }\n \n\\ No newline at end of file\n-gallery.append(...allImagesEl)\n+gallery.append(...allImagesEl);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701627570216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,8 +33,9 @@\n const allImagesEl = [];\n for (const image of images) {\n   const liEl = document.createElement('li');\n   const imEl = document.createElement('img')\n+  imE\n   imEl.src = image.url;\n   imEl.alt = image.alt;\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n"
+                },
+                {
+                    "date": 1701627601002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n const allImagesEl = [];\n for (const image of images) {\n   const liEl = document.createElement('li');\n   const imEl = document.createElement('img')\n-  imE\n+  imEl.setAttribute('class', '')\n   imEl.src = image.url;\n   imEl.alt = image.alt;\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n"
+                },
+                {
+                    "date": 1701628205488,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n const allImagesEl = [];\n for (const image of images) {\n   const liEl = document.createElement('li');\n   const imEl = document.createElement('img')\n-  imEl.setAttribute('class', '')\n+  liEl.setAttribute('class', 'blabla');\n   imEl.src = image.url;\n   imEl.alt = image.alt;\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n"
+                },
+                {
+                    "date": 1701628217260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n const allImagesEl = [];\n for (const image of images) {\n   const liEl = document.createElement('li');\n   const imEl = document.createElement('img')\n-  liEl.setAttribute('class', 'blabla');\n+  imEl.setAttribute('class', 'blabla');\n   imEl.src = image.url;\n   imEl.alt = image.alt;\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n"
+                },
+                {
+                    "date": 1701628232330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,9 @@\n \n const allImagesEl = [];\n for (const image of images) {\n   const liEl = document.createElement('li');\n+  liEl.\n   const imEl = document.createElement('img')\n   imEl.setAttribute('class', 'blabla');\n   imEl.src = image.url;\n   imEl.alt = image.alt;\n"
+                },
+                {
+                    "date": 1701628250314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n \n const allImagesEl = [];\n for (const image of images) {\n   const liEl = document.createElement('li');\n-  liEl.\n+  liEl.setAttribute\n   const imEl = document.createElement('img')\n   imEl.setAttribute('class', 'blabla');\n   imEl.src = image.url;\n   imEl.alt = image.alt;\n"
+                },
+                {
+                    "date": 1701628257086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n \n const allImagesEl = [];\n for (const image of images) {\n   const liEl = document.createElement('li');\n-  liEl.setAttribute\n+  liEl.setAttribute('style', 'list-style-type: none;')\n   const imEl = document.createElement('img')\n   imEl.setAttribute('class', 'blabla');\n   imEl.src = image.url;\n   imEl.alt = image.alt;\n"
+                },
+                {
+                    "date": 1701721239879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,8 +35,9 @@\n   const liEl = document.createElement('li');\n   liEl.setAttribute('style', 'list-style-type: none;')\n   const imEl = document.createElement('img')\n   imEl.setAttribute('class', 'blabla');\n+  imEl.setAttribute('class', 'blabla');\n   imEl.src = image.url;\n   imEl.alt = image.alt;\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n"
+                },
+                {
+                    "date": 1701721245235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,10 +34,10 @@\n for (const image of images) {\n   const liEl = document.createElement('li');\n   liEl.setAttribute('style', 'list-style-type: none;')\n   const imEl = document.createElement('img')\n+  imEl.cl 'blabla');\n   imEl.setAttribute('class', 'blabla');\n-  imEl.setAttribute('class', 'blabla');\n   imEl.src = image.url;\n   imEl.alt = image.alt;\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n"
+                },
+                {
+                    "date": 1701721251804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,10 +34,10 @@\n for (const image of images) {\n   const liEl = document.createElement('li');\n   liEl.setAttribute('style', 'list-style-type: none;')\n   const imEl = document.createElement('img')\n-  imEl.cl 'blabla');\n-  imEl.setAttribute('class', 'blabla');\n+  imEl.className = 'blabla';\n+  // imEl.setAttribute('class', 'blabla');\n   imEl.src = image.url;\n   imEl.alt = image.alt;\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n"
+                },
+                {
+                    "date": 1701721265683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n for (const image of images) {\n   const liEl = document.createElement('li');\n   liEl.setAttribute('style', 'list-style-type: none;')\n   const imEl = document.createElement('img')\n-  imEl.className = 'blabla';\n+  // imEl.className = 'blabla';\n   // imEl.setAttribute('class', 'blabla');\n   imEl.src = image.url;\n   imEl.alt = image.alt;\n   liEl.appendChild(imEl);\n"
+                },
+                {
+                    "date": 1701721271787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,10 +34,9 @@\n for (const image of images) {\n   const liEl = document.createElement('li');\n   liEl.setAttribute('style', 'list-style-type: none;')\n   const imEl = document.createElement('img')\n-  // imEl.className = 'blabla';\n-  // imEl.setAttribute('class', 'blabla');\n+  imEl.className = 'blabla';\n   imEl.src = image.url;\n   imEl.alt = image.alt;\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n"
+                },
+                {
+                    "date": 1701721277178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n for (const image of images) {\n   const liEl = document.createElement('li');\n   liEl.setAttribute('style', 'list-style-type: none;')\n   const imEl = document.createElement('img')\n-  imEl.className = 'blabla';\n+  imEl.className = 'image';\n   imEl.src = image.url;\n   imEl.alt = image.alt;\n   liEl.appendChild(imEl);\n   allImagesEl.push(liEl)\n"
+                }
+            ],
+            "date": 1701626911441,
+            "name": "Commit-0",
+            "content": "const images = [\n  {\n    url: 'https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',\n    alt: 'White and Black Long Fur Cat',\n  },\n  {\n    url: 'https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',\n    alt: 'Orange and White Koi Fish Near Yellow Koi Fish',\n  },\n  {\n    url: 'https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',\n    alt: 'Group of Horses Running',\n  },\n  {\n    url:\n      'https://images.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',\n    alt: 'Elephant Beside on Baby Elephant',\n  },\n  {\n    url:\n      'https://images.pexels.com/photos/37833/rainbow-lorikeet-parrots-australia-rainbow-37833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',\n    alt: 'Blue Geeen and Orange Parrot',\n  },\n  {\n    url:\n      'https://images.pexels.com/photos/247376/pexels-photo-247376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',\n    alt: 'Zebras on Zebra',\n  },\n];\n\n"
+        }
+    ]
+}

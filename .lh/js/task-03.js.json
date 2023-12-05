@@ -1,0 +1,174 @@
+{
+    "sourceFile": "js/task-03.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 39,
+            "patches": [
+                {
+                    "date": 1701628446047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1701628451847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const \n\\ No newline at end of file\n+const inputEl = do\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628462349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const inputEl = do\n\\ No newline at end of file\n+const inputEl = document.querySelector('name-input')\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628469704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const inputEl = document.querySelector('name-input')\n\\ No newline at end of file\n+const inputEl = document.querySelector('#name-input');\n"
+                },
+                {
+                    "date": 1701628483563,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n const inputEl = document.querySelector('#name-input');\n+inputEl.addEventListener\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628489432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n const inputEl = document.querySelector('#name-input');\n-inputEl.addEventListener\n\\ No newline at end of file\n+inputEl.addEventListener('input', )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628495967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n const inputEl = document.querySelector('#name-input');\n-inputEl.addEventListener('input', )\n\\ No newline at end of file\n+inputEl.addEventListener('input', (text))\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628537352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,4 @@\n const inputEl = document.querySelector('#name-input');\n-inputEl.addEventListener('input', (text))\n\\ No newline at end of file\n+inputEl.addEventListener('input', (event) => {\n+    \n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628544109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n const inputEl = document.querySelector('#name-input');\n+const \n inputEl.addEventListener('input', (event) => {\n-    \n+\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628569292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n const inputEl = document.querySelector('#name-input');\n-const \n+const outp\n inputEl.addEventListener('input', (event) => {\n \n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628575569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n const inputEl = document.querySelector('#name-input');\n-const outp\n+const outputEl = document.querySelector('#name-input');\n inputEl.addEventListener('input', (event) => {\n \n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628582556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n const inputEl = document.querySelector('#name-input');\n-const outputEl = document.querySelector('#name-input');\n+const outputEl = document.querySelector('#name-output');\n+\n inputEl.addEventListener('input', (event) => {\n \n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628592892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n-\n+outputEl.\n inputEl.addEventListener('input', (event) => {\n \n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628607755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n-outputEl.\n+outputEl.textContent = \n inputEl.addEventListener('input', (event) => {\n \n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628612962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n-outputEl.textContent = \n+\n inputEl.addEventListener('input', (event) => {\n \n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628623512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n-\n+    outputEl.e\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628631769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n-    outputEl.e\n+    outputEl.textContent\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628661613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n-    outputEl.textContent\n+    outputEl.textContent.\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628668835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n-    outputEl.textContent.\n+    outputEl.textContent.replace()\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628678252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n-    outputEl.textContent.replace()\n+    outputEl.textContent.replace(outputEl.textContent, event.target.v)\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628683639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n-    outputEl.textContent.replace(outputEl.textContent, event.target.v)\n+    outputEl.textContent.replace(outputEl.textContent, event.target.value.)\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628713698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n-    outputEl.textContent.replace(outputEl.textContent, event.target.value.)\n+    outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628770428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,6 @@\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n     outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n+    outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628776281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n     outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n-    outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n+    console.logoutputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628783735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n     outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n-    console.logoutputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n+    console.log(outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628800417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n     outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n-    console.log(outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n+    console.log(event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628816397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,7 @@\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n     outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n+    outputEl.textContent\n     console.log(event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628822707,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n     outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n-    outputEl.textContent\n+    console.log(outputEl.textContent\n     console.log(event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628847470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n-    outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n-    console.log(outputEl.textContent\n-    console.log(event.target.value.trim())\n+    outputEl.textContent.replace(outputEl.textContent, 'fdfd')\n+    console.log(outputEl.textContent)\n+    // console.log(event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628855100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n-    outputEl.textContent.replace(outputEl.textContent, 'fdfd')\n+    outputEl.textContent.replace(outputEl.textContent, 'event.target.value.trim()')\n     console.log(outputEl.textContent)\n     // console.log(event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628910793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n-    outputEl.textContent.replace(outputEl.textContent, 'event.target.value.trim()')\n+    outputEl.textContent= outputEl.textContent.replace(outputEl.textContent, 'event.target.value.trim()')\n     console.log(outputEl.textContent)\n     // console.log(event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628918443,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n-    outputEl.textContent= outputEl.textContent.replace(outputEl.textContent, 'event.target.value.trim()')\n-    console.log(outputEl.textContent)\n+    outputEl.textContent = outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n+    // console.log(outputEl.textContent)\n     // console.log(event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628930345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n+    if ()\n     outputEl.textContent = outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n     // console.log(outputEl.textContent)\n     // console.log(event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628935475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n-    if ()\n+    if (!event.target)\n     outputEl.textContent = outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n     // console.log(outputEl.textContent)\n     // console.log(event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628941571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n-    if (!event.target)\n+    if (!event.target.value.trim())\n     outputEl.textContent = outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n     // console.log(outputEl.textContent)\n     // console.log(event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628946925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n-    if (!event.target.value.trim())\n-    outputEl.textContent = outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n+    if (event.target.value.trim()) {}\n+    \n     // console.log(outputEl.textContent)\n     // console.log(event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628961674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n const inputEl = document.querySelector('#name-input');\n const outputEl = document.querySelector('#name-output');\n \n inputEl.addEventListener('input', (event) => {\n-    if (event.target.value.trim()) {}\n-    \n+    if (event.target.value.trim()) {\n+        outputEl.textContent = outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n+    } \n     // console.log(outputEl.textContent)\n     // console.log(event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628968765,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,10 @@\n \n inputEl.addEventListener('input', (event) => {\n     if (event.target.value.trim()) {\n         outputEl.textContent = outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n-    } \n+    } else {\n+        \n+    }\n     // console.log(outputEl.textContent)\n     // console.log(event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628975866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n inputEl.addEventListener('input', (event) => {\n     if (event.target.value.trim()) {\n         outputEl.textContent = outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n     } else {\n-        \n+        outputEl.textContent = \"\"\n     }\n     // console.log(outputEl.textContent)\n     // console.log(event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701628985755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,7 @@\n inputEl.addEventListener('input', (event) => {\n     if (event.target.value.trim()) {\n         outputEl.textContent = outputEl.textContent.replace(outputEl.textContent, event.target.value.trim())\n     } else {\n-        outputEl.textContent = \"\"\n+        outputEl.textContent = \"Anonymous\"\n     }\n-    // console.log(outputEl.textContent)\n-    // console.log(event.target.value.trim())\n })\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1701628446047,
+            "name": "Commit-0",
+            "content": "const "
+        }
+    ]
+}

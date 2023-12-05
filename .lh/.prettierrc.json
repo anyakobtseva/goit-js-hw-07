@@ -1,0 +1,22 @@
+{
+    "sourceFile": ".prettierrc",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1701624996355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1701625011754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,12 @@\n-/Users/Home/Downloads/src 2/task-01.html /Users/Home/Downloads/src 2/task-04.html /Users/Home/Downloads/src 2/task-06.html /Users/Home/Downloads/src 2/index.html /Users/Home/Downloads/src 2/task-05.html /Users/Home/Downloads/src 2/task-03.html /Users/Home/Downloads/src 2/task-02.html /Users/Home/Downloads/src 2/css /Users/Home/Downloads/src 2/js\n\\ No newline at end of file\n+{\n+    \"printWidth\": 80,\n+    \"tabWidth\": 2,\n+    \"useTabs\": false,\n+    \"semi\": true,\n+    \"singleQuote\": true,\n+    \"trailingComma\": \"all\",\n+    \"bracketSpacing\": true,\n+    \"jsxBracketSameLine\": false,\n+    \"arrowParens\": \"avoid\",\n+    \"proseWrap\": \"always\"\n+    }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1701624996355,
+            "name": "Commit-0",
+            "content": "/Users/Home/Downloads/src 2/task-01.html /Users/Home/Downloads/src 2/task-04.html /Users/Home/Downloads/src 2/task-06.html /Users/Home/Downloads/src 2/index.html /Users/Home/Downloads/src 2/task-05.html /Users/Home/Downloads/src 2/task-03.html /Users/Home/Downloads/src 2/task-02.html /Users/Home/Downloads/src 2/css /Users/Home/Downloads/src 2/js"
+        }
+    ]
+}

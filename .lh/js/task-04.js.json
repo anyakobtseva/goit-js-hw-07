@@ -1,0 +1,210 @@
+{
+    "sourceFile": "js/task-04.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 48,
+            "patches": [
+                {
+                    "date": 1701629929359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1701629936519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n \n-const formEl = \n\\ No newline at end of file\n+const formEl = document.querySelector()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701629941934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n \n-const formEl = document.querySelector()\n\\ No newline at end of file\n+const formEl = document.querySelector('.login-form');\n+\n"
+                },
+                {
+                    "date": 1701629947923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n \n const formEl = document.querySelector('.login-form');\n \n+formEl.addEventListener()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701629956815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n \n const formEl = document.querySelector('.login-form');\n \n-formEl.addEventListener()\n\\ No newline at end of file\n+formEl.addEventListener('submut', (event) => {\n+    \n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701629963928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \n const formEl = document.querySelector('.login-form');\n \n formEl.addEventListener('submut', (event) => {\n-    \n+    console.log()\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701629973733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \n const formEl = document.querySelector('.login-form');\n \n formEl.addEventListener('submut', (event) => {\n-    console.log()\n+    console.log('Email: ', event.e)\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630087555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n \n const formEl = document.querySelector('.login-form');\n \n formEl.addEventListener('submut', (event) => {\n-    console.log('Email: ', event.e)\n+    \n+    console.log('Email: ', event.ele)\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630093848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \n const formEl = document.querySelector('.login-form');\n \n formEl.addEventListener('submut', (event) => {\n-    \n+    event.preventDefault()\n     console.log('Email: ', event.ele)\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630109647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \n const formEl = document.querySelector('.login-form');\n \n formEl.addEventListener('submut', (event) => {\n-    event.preventDefault()\n-    console.log('Email: ', event.ele)\n+    event.preventDefault();\n+    console.log('Email: ', event.)\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630117646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n const formEl = document.querySelector('.login-form');\n \n formEl.addEventListener('submut', (event) => {\n     event.preventDefault();\n-    console.log('Email: ', event.)\n+    console.log('Email: ', event.target.login)\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630132665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n const formEl = document.querySelector('.login-form');\n \n formEl.addEventListener('submut', (event) => {\n     event.preventDefault();\n-    console.log('Email: ', event.target.login)\n+    console.log('Email: ', event.target.email.value)\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630150128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n const formEl = document.querySelector('.login-form');\n \n formEl.addEventListener('submut', (event) => {\n     event.preventDefault();\n-    console.log('Email: ', event.target.email.value)\n+    console.log('Email: ', event.target.login.value)\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630169857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \n const formEl = document.querySelector('.login-form');\n \n formEl.addEventListener('submut', (event) => {\n-    event.preventDefault();\n+    formEl.preventDefault();\n     console.log('Email: ', event.target.login.value)\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630190907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n \n const formEl = document.querySelector('.login-form');\n \n+\n formEl.addEventListener('submut', (event) => {\n     formEl.preventDefault();\n     console.log('Email: ', event.target.login.value)\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630197803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n const formEl = document.querySelector('.login-form');\n \n-\n+let a;\n formEl.addEventListener('submut', (event) => {\n     formEl.preventDefault();\n     console.log('Email: ', event.target.login.value)\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630203966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,7 @@\n let a;\n formEl.addEventListener('submut', (event) => {\n     formEl.preventDefault();\n     console.log('Email: ', event.target.login.value)\n-})\n\\ No newline at end of file\n+})\n+\n+console.log('Email: ', event.target.login.value)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630210898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \n let a;\n formEl.addEventListener('submut', (event) => {\n     formEl.preventDefault();\n-    console.log('Email: ', event.target.login.value)\n+    a = 'Email: ', event.target.login.value)\n })\n \n\\ No newline at end of file\n-console.log('Email: ', event.target.login.value)\n+console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630234734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \n let a;\n formEl.addEventListener('submut', (event) => {\n     formEl.preventDefault();\n-    a = 'Email: ', event.target.login.value)\n+    a = 'Email: ' +  event.target.email.value;\n })\n \n console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630262289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \n let a;\n formEl.addEventListener('submut', (event) => {\n     formEl.preventDefault();\n-    a = 'Email: ' +  event.target.email.value;\n+    a = 'Email: ' +  event.target.elements.email.value;\n })\n \n console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630285158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n const formEl = document.querySelector('.login-form');\n \n let a;\n formEl.addEventListener('submut', (event) => {\n-    formEl.preventDefault();\n+    event.preventDefault();\n     a = 'Email: ' +  event.target.elements.email.value;\n })\n \n console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630335726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,8 @@\n let a;\n formEl.addEventListener('submut', (event) => {\n     event.preventDefault();\n     a = 'Email: ' +  event.target.elements.email.value;\n+    \n })\n \n console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630345986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n let a;\n formEl.addEventListener('submut', (event) => {\n     event.preventDefault();\n     a = 'Email: ' +  event.target.elements.email.value;\n-    \n+    event.\n })\n \n console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630358635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n const formEl = document.querySelector('.login-form');\n \n let a;\n formEl.addEventListener('submut', (event) => {\n+    const form = event.target;\n     event.preventDefault();\n     a = 'Email: ' +  event.target.elements.email.value;\n     event.\n })\n"
+                },
+                {
+                    "date": 1701630364717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n formEl.addEventListener('submut', (event) => {\n     const form = event.target;\n     event.preventDefault();\n     a = 'Email: ' +  event.target.elements.email.value;\n-    event.\n+    form.removeEventListener()\n })\n \n console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630421381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n formEl.addEventListener('submut', (event) => {\n     const form = event.target;\n     event.preventDefault();\n     a = 'Email: ' +  event.target.elements.email.value;\n-    form.removeEventListener()\n+    formEl.rese\n })\n \n console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630430739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n formEl.addEventListener('submut', (event) => {\n     const form = event.target;\n     event.preventDefault();\n     a = 'Email: ' +  event.target.elements.email.value;\n-    formEl.rese\n+    formEl.reset()\n })\n \n console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630437448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,8 @@\n const formEl = document.querySelector('.login-form');\n \n let a;\n formEl.addEventListener('submut', (event) => {\n-    const form = event.target;\n     event.preventDefault();\n     a = 'Email: ' +  event.target.elements.email.value;\n     formEl.reset()\n })\n"
+                },
+                {
+                    "date": 1701630554206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n let a;\n formEl.addEventListener('submut', (event) => {\n     event.preventDefault();\n-    a = 'Email: ' +  event.target.elements.email.value;\n+    a = 'Email: ' +  event.target.elements;\n     formEl.reset()\n })\n \n console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630578078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n let a;\n formEl.addEventListener('submut', (event) => {\n     event.preventDefault();\n-    a = 'Email: ' +  event.target.elements;\n+    a = event.target.elements;\n     formEl.reset()\n })\n \n console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630598115,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n let a;\n formEl.addEventListener('submut', (event) => {\n     event.preventDefault();\n     a = event.target.elements;\n+    console.log('Email: ', a)\n     formEl.reset()\n })\n \n console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630604131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n let a;\n formEl.addEventListener('submut', (event) => {\n     event.preventDefault();\n     a = event.target.elements;\n-    console.log('Email: ', a)\n+    console.log('submit: ')\n     formEl.reset()\n })\n \n console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630635710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n \n const formEl = document.querySelector('.login-form');\n \n let a;\n-formEl.addEventListener('submut', (event) => {\n+formEl.addEventListener('submit', (event) => {\n     event.preventDefault();\n     a = event.target.elements;\n     console.log('submit: ')\n     formEl.reset()\n"
+                },
+                {
+                    "date": 1701630649734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,11 @@\n \n const formEl = document.querySelector('.login-form');\n \n let a;\n-formEl.addEventListener('submit', (event) => {\n+formEl.addEventListener('submut', (event) => {\n     event.preventDefault();\n-    a = event.target.elements;\n-    console.log('submit: ')\n+    a = 'Email: ' +  event.target.elements;\n     formEl.reset()\n })\n \n console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630666895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n \n const formEl = document.querySelector('.login-form');\n \n let a;\n-formEl.addEventListener('submut', (event) => {\n+formEl.addEventListener('submit', (event) => {\n     event.preventDefault();\n-    a = 'Email: ' +  event.target.elements;\n+    console.log'Email: ' +  event.target.elements;\n     formEl.reset()\n })\n \n console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630674821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n let a;\n formEl.addEventListener('submit', (event) => {\n     event.preventDefault();\n-    console.log'Email: ' +  event.target.elements;\n+    console.log('Email: ' +  event.target.elements);\n     formEl.reset()\n })\n \n console.log('Email: ', a)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630681452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,7 @@\n \n let a;\n formEl.addEventListener('submit', (event) => {\n     event.preventDefault();\n-    console.log('Email: ' +  event.target.elements);\n+    console.log('Email: ' +  event.target.elements.email.value);\n     formEl.reset()\n-})\n-\n\\ No newline at end of file\n-console.log('Email: ', a)\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630696575,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n \n const formEl = document.querySelector('.login-form');\n \n-let a;\n formEl.addEventListener('submit', (event) => {\n     event.preventDefault();\n     console.log('Email: ' +  event.target.elements.email.value);\n+    console.log('Email: ' +  event.target.elements.email.value);\n     formEl.reset()\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630703984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n \n formEl.addEventListener('submit', (event) => {\n     event.preventDefault();\n     console.log('Email: ' +  event.target.elements.email.value);\n-    console.log('Email: ' +  event.target.elements.email.value);\n+    console.log('Password: ' +  event.target.elements.password.value);\n     formEl.reset()\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630716860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n const formEl = document.querySelector('.login-form');\n \n formEl.addEventListener('submit', (event) => {\n     event.preventDefault();\n+    if (!event.target.elements.email.value )\n     console.log('Email: ' +  event.target.elements.email.value);\n     console.log('Password: ' +  event.target.elements.password.value);\n     formEl.reset()\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630725918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n const formEl = document.querySelector('.login-form');\n \n formEl.addEventListener('submit', (event) => {\n     event.preventDefault();\n-    if (!event.target.elements.email.value )\n+    if (!event.target.elements.email.value || !event.target.elements.password.value)\n     console.log('Email: ' +  event.target.elements.email.value);\n     console.log('Password: ' +  event.target.elements.password.value);\n     formEl.reset()\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630735756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n const formEl = document.querySelector('.login-form');\n \n formEl.addEventListener('submit', (event) => {\n     event.preventDefault();\n-    if (!event.target.elements.email.value || !event.target.elements.password.value)\n+    if (!event.target.elements.email.value || !event.target.elements.password.value) {\n+        alert()\n+    }\n     console.log('Email: ' +  event.target.elements.email.value);\n     console.log('Password: ' +  event.target.elements.password.value);\n     formEl.reset()\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630753047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n formEl.addEventListener('submit', (event) => {\n     event.preventDefault();\n     if (!event.target.elements.email.value || !event.target.elements.password.value) {\n-        alert()\n+        alert(All form fields must be filled in)\n     }\n     console.log('Email: ' +  event.target.elements.email.value);\n     console.log('Password: ' +  event.target.elements.password.value);\n     formEl.reset()\n"
+                },
+                {
+                    "date": 1701630758739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n formEl.addEventListener('submit', (event) => {\n     event.preventDefault();\n     if (!event.target.elements.email.value || !event.target.elements.password.value) {\n-        alert(All form fields must be filled in)\n+        alert('All form fields must be filled in');\n     }\n     console.log('Email: ' +  event.target.elements.email.value);\n     console.log('Password: ' +  event.target.elements.password.value);\n     formEl.reset()\n"
+                },
+                {
+                    "date": 1701630765188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,10 @@\n formEl.addEventListener('submit', (event) => {\n     event.preventDefault();\n     if (!event.target.elements.email.value || !event.target.elements.password.value) {\n         alert('All form fields must be filled in');\n+    } else {\n+        \n     }\n     console.log('Email: ' +  event.target.elements.email.value);\n     console.log('Password: ' +  event.target.elements.password.value);\n     formEl.reset()\n"
+                },
+                {
+                    "date": 1701630771350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,8 @@\n     event.preventDefault();\n     if (!event.target.elements.email.value || !event.target.elements.password.value) {\n         alert('All form fields must be filled in');\n     } else {\n-        \n+\n     }\n-    console.log('Email: ' +  event.target.elements.email.value);\n-    console.log('Password: ' +  event.target.elements.password.value);\n     formEl.reset()\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630835058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,12 @@\n const formEl = document.querySelector('.login-form');\n \n formEl.addEventListener('submit', (event) => {\n     event.preventDefault();\n-    if (!event.target.elements.email.value || !event.target.elements.password.value) {\n+    if (!event.target.elements.email.value.tr || !event.target.elements.password.value) {\n         alert('All form fields must be filled in');\n     } else {\n-\n+        console.log('Email: ' +  event.target.elements.email.value);\n+        console.log('Password: ' +  event.target.elements.password.value);\n     }\n     formEl.reset()\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1701630843757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n const formEl = document.querySelector('.login-form');\n \n formEl.addEventListener('submit', (event) => {\n     event.preventDefault();\n-    if (!event.target.elements.email.value.tr || !event.target.elements.password.value) {\n+    if (!event.target.elements.email.value.trim() || !event.target.elements.password.value.trim()) {\n         alert('All form fields must be filled in');\n     } else {\n         console.log('Email: ' +  event.target.elements.email.value);\n         console.log('Password: ' +  event.target.elements.password.value);\n"
+                },
+                {
+                    "date": 1701630857255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     event.preventDefault();\n     if (!event.target.elements.email.value.trim() || !event.target.elements.password.value.trim()) {\n         alert('All form fields must be filled in');\n     } else {\n-        console.log('Email: ' +  event.target.elements.email.value);\n+        console.log('Email: ' +  event.target.elements.email.value.trim);\n         console.log('Password: ' +  event.target.elements.password.value);\n     }\n     formEl.reset()\n })\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1701629929359,
+            "name": "Commit-0",
+            "content": "\nconst formEl = "
+        }
+    ]
+}

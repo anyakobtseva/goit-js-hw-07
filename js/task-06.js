@@ -10,6 +10,7 @@ const inputEl = document.querySelector('input');
 const divBoxes = document.querySelector('#boxes');
 
 function createBoxes(amount) {
+  const arrBoxes = [];
   const initialSize = 30;
   const sizeStep = 10;
   for(let i = 0; i<amount; i++) {
@@ -18,9 +19,9 @@ function createBoxes(amount) {
     div.style.width = size + 'px';
     div.style.height = size + 'px';
     div.style.backgroundColor = getRandomHexColor();
-    console.log(div)
-    divBoxes.appendChild(div);
+    arrBoxes.push(div);
   }
+  divBoxes.append(...arrBoxes);
 }
 
 createButton.addEventListener('click', (event) => {
@@ -33,4 +34,5 @@ createButton.addEventListener('click', (event) => {
 
 destroyButton.addEventListener('click', (event) => {
   divBoxes.innerHTML = "";
+  inputEl.value = null;
 })
